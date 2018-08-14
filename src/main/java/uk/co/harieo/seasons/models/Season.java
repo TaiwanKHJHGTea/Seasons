@@ -8,11 +8,10 @@ import org.apache.commons.lang.Validate;
 
 public enum Season {
 
-	SPRING("Spring", "The sun rises, the flowers smell fresh and there is a Spring in your step... literally!",
-			ChatColor.YELLOW),
-	SUMMER("Summer", "Today feels warmer than the others, maybe even too warm... Summer has arrived!", ChatColor.GOLD),
-	AUTUMN("Autumn", "A cool breeze whispers to the leaves that fall from the trees, \"it's Autumn!\"", ChatColor.DARK_GREEN),
-	WINTER("Winter", "A few snowflakes fall and the world grows cold, time for Winter to make it's mark...", ChatColor.BLUE);
+	SPRING("Spring", "太陽緩緩升起, 鮮美的花朵和春天就在我們的腳步下...",ChatColor.YELLOW),
+	SUMMER("Summer", "今天遠比其他季節還溫暖, 也許...太溫暖了 夏天來了!!", ChatColor.GOLD),
+	AUTUMN("Autumn", "涼爽的微風緩緩地將樹上通紅的葉子吹落力上, \"是秋天!!\"", ChatColor.DARK_GREEN),
+	WINTER("Winter", "雪白雪花飄落，世界變得寒冷, 是冬天來臨的標誌...", ChatColor.BLUE);
 
 	private String name; // Unique identifier for the season that will look nice in chat (front and back end)
 	private String message;
